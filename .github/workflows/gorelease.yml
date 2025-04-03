@@ -37,7 +37,7 @@ jobs:
         with:
           # either 'goreleaser' (default) or 'goreleaser-pro'
           distribution: goreleaser
-          workdir: ./cmg/goplantuml
+          workdir: ./cmd/goplantuml
           # 'latest', 'nightly', or a semver
           version: "~> v2"
           args: release --clean
