@@ -37,8 +37,6 @@ jobs:
         with:
           # either 'goreleaser' (default) or 'goreleaser-pro'
           distribution: goreleaser
-          # specify workdir since main function is not in root
-          workdir: ./client
           # 'latest', 'nightly', or a semver
           version: "~> v2"
           args: release --clean
